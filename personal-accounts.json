@@ -1,0 +1,705 @@
+{
+    "data": {
+        "brand": {
+            "name": "DIGIO",
+            "companies": [
+                {
+                    "name": "Banco Bradesco S.A.",
+                    "cnpjNumber": "",
+                    "urlComplementaryList": "",
+                    "personalAccounts": [
+                        {
+                            "type": "CONTA_DEPOSITO_A_VISTA",
+                            "fees": {
+                                "priorityServices": [
+                                    {
+                                        "name": "TRANSFERENCIA_TED_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS",
+                                        "code": "TED_ELETRONICO",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "FORNECIMENTO_2_VIA_CARTAO_FUNCAO_DEBITO",
+                                        "code": "2_VIA_CARTAO_DEBITO",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "SAQUE_CONTA_DEPOSITO_A_VISTA_POUPANCA_CORRESPONDENTES_PAIS",
+                                        "code": "SAQUE_CORRESPONDENTE",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "SAQUE_CONTA_DEPOSITO_A_VISTA_POUPANCA_TERMINAL_AUTOATENDIMENTO",
+                                        "code": "SAQUE_TERMINAL",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "2.950000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "1.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "FORNECIMENTO_EXTRATO_DE_UM_PERIODO_CONTA_DEPOSITOS_A_VISTA_E_POUPANCA_TERMINAL_AUTOATENDIMENTO",
+                                        "code": "EXTRATO_MOVIMENTO_E",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "CONFECCAO_CADASTRO_INICIO_RELACIONAMENTO",
+                                        "code": "CADASTRO",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "1.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "TRANSFERENCIA_DOC_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS",
+                                        "code": "DOC_ELETRONICO",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    }
+                                ],
+                                "otherServices": [
+                                    {
+                                        "name": "SAQUE_CONTA_DEPOSITO_A_VISTA_POUPANCA_TERMINAL_AUTOATENDIMENTO",
+                                        "code": "SAQUE_TERMINAL",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "FORNECIMENTO_EXTRATO_DE_UM_PERIODO_CONTA_DEPOSITOS_A_VISTA_E_POUPANCA_TERMINAL_AUTOATENDIMENTO",
+                                        "code": "EXTRATO_MOVIMENTO_E",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "CONFECCAO_CADASTRO_INICIO_RELACIONAMENTO",
+                                        "code": "CADASTRO",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "SAQUE_CONTA_DEPOSITO_A_VISTA_POUPANCA_CORRESPONDENTES_PAIS",
+                                        "code": "SAQUE_CORRESPONDENTE",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "TRANSFERENCIA_DOC_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS",
+                                        "code": "DOC_ELETRONICO",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "FORNECIMENTO_2_VIA_CARTAO_FUNCAO_DEBITO",
+                                        "code": "2_VIA_CARTAO_DEBITO",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "TRANSFERENCIA_TED_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS",
+                                        "code": "TED_ELETRONICO",
+                                        "chargingTriggerInfo": "CONTRATO",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA_VALOR",
+                                                "value": "0.000000",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.000000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.000000",
+                                            "currency": "BRL"
+                                        }
+                                    }
+                                ]
+                            },
+                            "serviceBundles": [],
+                            "openingClosingChannels": [
+                                "MOBILE_BANKING",
+                                "CHAT"
+                            ],
+                            "additionalInfo": "PORTAL E APLICATIVO DO PRODUTO",
+                            "transactionMethods": [
+                                "MOVIMENTACAO_ELETRONICA",
+                                "MOVIMENTACAO_CARTAO"
+                            ],
+                            "termsConditions": {
+                                "minimumBalance": {
+                                    "value": "0.00",
+                                    "currency": "BRL"
+                                },
+                                "elegibilityCriteriaInfo": "IDADE MINIMA DE 18 ANOS PARA REALIZAR A CONTRATAÇÃO",
+                                "closingProcessInfo": ""
+                            },
+                            "incomeRate": {
+                                "savingAccount": "N/A",
+                                "prepaidPaymentAccount": "N/A"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

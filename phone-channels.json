@@ -1,0 +1,119 @@
+{
+    "data": {
+        "brand": {
+            "name": "DIGIO",
+            "companies": [
+                {
+                    "name": "BANCO BRADESCO S.A.",
+                    "cnpjNumber": "",
+                    "urlComplementaryList": "",
+                    "phoneChannels": [
+                        {
+                            "identification": {
+                                "type": "SAC",
+                                "phones": [
+                                    {
+                                        "countryCallingCode": "55",
+                                        "areaCode": "0",
+                                        "number": "0800",
+                                        "additionalInfo": ""
+                                    }
+                                ],
+                                "additionalInfo": "NA"
+                            },
+                            "services": [
+                                {
+                                    "name": "RECLAMACOES",
+                                    "code": "RECLAMACOES",
+                                    "additionalInfo": "NA"
+                                },
+                                {
+                                    "name": "CANCELAMENTO",
+                                    "code": "CANCELAMENTO",
+                                    "additionalInfo": "NA"
+                                },
+                                {
+                                    "name": "INFORMACOES",
+                                    "code": "INFORMACOES",
+                                    "additionalInfo": "NA"
+                                }
+                            ]
+                        },
+                        {
+                            "identification": {
+                                "type": "OUVIDORIA",
+                                "phones": [
+                                    {
+                                        "countryCallingCode": "55",
+                                        "areaCode": "0",
+                                        "number": "0800",
+                                        "additionalInfo": ""
+                                    }
+                                ],
+                                "additionalInfo": "NA"
+                            },
+                            "services": [
+                                {
+                                    "name": "RECLAMACOES",
+                                    "code": "RECLAMACOES",
+                                    "additionalInfo": "REGISTRO DE RECLAMACOES NOS TERMOS DA RESOLUCAO 4.433 DO BANCO CENTRAL DO BRASIL E CONSULTA DE INFORMACOES SOBRE PROTOCOLOS JA REGISTRADOS"
+                                },
+                                {
+                                    "name": "CANCELAMENTO",
+                                    "code": "CANCELAMENTO",
+                                    "additionalInfo": "REGISTRO DE RECLAMACOES NOS TERMOS DA RESOLUCAO 4.433 DO BANCO CENTRAL DO BRASIL E CONSULTA DE INFORMACOES SOBRE PROTOCOLOS JA REGISTRADOS"
+                                },
+                                {
+                                    "name": "INFORMACOES",
+                                    "code": "INFORMACOES",
+                                    "additionalInfo": "REGISTRO DE RECLAMACOES NOS TERMOS DA RESOLUCAO 4.433 DO BANCO CENTRAL DO BRASIL E CONSULTA DE INFORMACOES SOBRE PROTOCOLOS JA REGISTRADOS"
+                                }
+                            ]
+                        },
+                        {
+                            "identification": {
+                                "type": "CENTRAL TELEFONICA BANKING",
+                                "phones": [
+                                    {
+                                        "countryCallingCode": "55",
+                                        "areaCode": "0",
+                                        "number": "0800",
+                                        "additionalInfo": ""
+                                    }
+                                ],
+                                "additionalInfo": "NA"
+                            },
+                            "services": [
+                                {
+                                    "name": "TRANSFERENCIAS ELETRONICAS VISANDO MOVIMENTACAO CONTAS DEPOSITOS OU PAGAMENTO TITULARIDADE CLIENTES",
+                                    "code": "TRANSFERENCIAS ELETRONICAS MOVIMENTA CONTAS DEPOSITOS OU PAGTO TITULARES CLIENTES",
+                                    "additionalInfo": "NA"
+                                },
+                                {
+                                    "name": "RECEBIMENTOS PAGAMENTOS QUALQUER NATUREZA",
+                                    "code": "RECEBE PAGA QUALQUER NATUREZA",
+                                    "additionalInfo": "NA"
+                                },
+                                {
+                                    "name": "OPERACOES CREDITO BEM COMO OUTROS SERVICOS PRESTADOS ACOMPANHAMENTO OPERACAO",
+                                    "code": "OPERA CREDITO OUTROS SERVICOS ACOMPANHA OPERACAO",
+                                    "additionalInfo": "NA"
+                                },
+                                {
+                                    "name": "CARTAO CREDITO",
+                                    "code": "CARTAO CREDITO",
+                                    "additionalInfo": "NA"
+                                },
+                                {
+                                    "name": "OUTROS PRODUTOS SERVICOS",
+                                    "code": "OUTROS PRODUTOS SERVICOS",
+                                    "additionalInfo": "NA"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

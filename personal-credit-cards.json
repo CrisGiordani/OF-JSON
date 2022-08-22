@@ -1,0 +1,109 @@
+{
+    "data": {
+        "brand": {
+            "name": "DIGIO",
+            "companies": [
+                {
+                    "name": "Banco Bradesco S.A.",
+                    "cnpjNumber": "",
+                    "urlComplementaryList": "",
+                    "personalCreditCards": [
+                        {
+                            "name": "VISA INTERNACIONAL",
+                            "identification": {
+                                "product": {
+                                    "type": "OUTROS",
+                                    "additionalInfo": "NA"
+                                },
+                                "creditCard": {
+                                    "network": "VISA",
+                                    "additionalInfo": "NA"
+                                }
+                            },
+                            "rewardsProgram": {
+                                "hasRewardProgram": false,
+                                "rewardProgramInfo": "NA"
+                            },
+                            "fees": {
+                                "services": []
+                            },
+                            "interest": {
+                                "rates": [],
+                                "instalmentRates": [],
+                                "otherCredits": []
+                            },
+                            "termsConditions": {
+                                "minimumFeeRate": "0.000000",
+                                "additionalInfo": "NA",
+                                "elegibilityCriteriaInfo": "",
+                                "closingProcessInfo": ""
+                            }
+                        },
+                        {
+                            "name": "VISA PLATINUM",
+                            "identification": {
+                                "product": {
+                                    "type": "PLATINUM",
+                                    "additionalInfo": "NA"
+                                },
+                                "creditCard": {
+                                    "network": "VISA",
+                                    "additionalInfo": "NA"
+                                }
+                            },
+                            "rewardsProgram": {
+                                "hasRewardProgram": true,
+                                "rewardProgramInfo": "NA"
+                            },
+                            "fees": {
+                                "services": []
+                            },
+                            "interest": {
+                                "rates": [],
+                                "instalmentRates": [],
+                                "otherCredits": []
+                            },
+                            "termsConditions": {
+                                "minimumFeeRate": "0.000000",
+                                "additionalInfo": "NA",
+                                "elegibilityCriteriaInfo": "",
+                                "closingProcessInfo": ""
+                            }
+                        },
+                        {
+                            "name": "VISA GOLD",
+                            "identification": {
+                                "product": {
+                                    "type": "GOLD",
+                                    "additionalInfo": "NA"
+                                },
+                                "creditCard": {
+                                    "network": "VISA",
+                                    "additionalInfo": "NA"
+                                }
+                            },
+                            "rewardsProgram": {
+                                "hasRewardProgram": true,
+                                "rewardProgramInfo": "NA"
+                            },
+                            "fees": {
+                                "services": []
+                            },
+                            "interest": {
+                                "rates": [],
+                                "instalmentRates": [],
+                                "otherCredits": []
+                            },
+                            "termsConditions": {
+                                "minimumFeeRate": "0.000000",
+                                "additionalInfo": "NA",
+                                "elegibilityCriteriaInfo": "",
+                                "closingProcessInfo": ""
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

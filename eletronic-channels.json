@@ -1,0 +1,14 @@
+{
+    "data": {
+        "brand": {
+            "name": "",
+            "companies": [
+                {
+                    "name": null,
+                    "cnpjNumber": null,
+                    "electronicChannels": []
+                }
+            ]
+        }
+    }
+}
