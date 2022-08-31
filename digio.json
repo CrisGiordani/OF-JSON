@@ -1,13 +1,102 @@
 {
     "data": {
         "brand": {
-            "name": "DIGIO",
+            "name": "Banco Digio",
             "companies": [
                 {
                     "name": "Banco Digio S.A.",
                     "cnpjNumber": "27098060000145",
                     "urlComplementaryList": "NA",
-                    "electronicChannels": [],
+                    "electronicChannels": [
+                        {
+                            "identification": {
+                                "type": "MOBILE_BANKING",
+                                "additionalInfo": "NA",
+                                "url": [
+                                    "https://apps.apple.com/br/app/digio/id1128793569",
+                                    "https://play.google.com/store/apps/details?id=br.com.digio"
+                                ]
+                            },
+                            "services": [
+                                {
+                                    "name": "ABERTURA_CONTAS_DEPOSITOS_OU_PAGAMENTO_PRE_PAGA",
+                                    "code": "ABRE_CONTA_DEPOSITO_OU_PRE_PAGA"
+                                },
+                                {
+                                    "name": "RECEBIMENTOS_PAGAMENTOS_QUALQUER_NATUREZA",
+                                    "code": "RECEBE_PAGA_QUALQUER_NATUREZA"
+                                },
+                                {
+                                    "name": "TRANSFERENCIAS_ELETRONICAS_VISANDO_MOVIMENTACAO_CONTAS_DEPOSITOS_OU_PAGAMENTO_TITULARIDADE_CLIENTES",
+                                    "code": "TRANSFERENCIAS_ELETRONICAS_MOVIMENTA_CONTAS_DEPOSITOS_OU_PAGTO_TITULARES_CLIENTES"
+                                },
+                                {
+                                    "name": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_CONTAS_PAGAMENTOS",
+                                    "code": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_PAGTOS"
+                                },
+                                {
+                                    "name": "OPERACOES_CREDITO_BEM_COMO_OUTROS_SERVICOS_PRESTADOS_ACOMPANHAMENTO_OPERACAO",
+                                    "code": "OPERA_CREDITO_OUTROS_SERVICOS_ACOMPANHA_OPERACAO"
+                                },
+                                {
+                                    "name": "CARTAO_CREDITO",
+                                    "code": "CARTAO_CREDITO"
+                                },
+                                {
+                                    "name": "OUTROS_PRODUTOS_SERVICOS",
+                                    "code": "OUTROS_PRODUTOS_SERVICOS",
+                                    "additionalInfo": "Recarga de Celular, Grana Extra e Digio Clube"
+                                },
+                                {
+                                    "name": "CANCELAMENTO",
+                                    "code": "CANCELAMENTO"
+                                },
+                                {
+                                    "name": "INFORMACOES",
+                                    "code": "INFORMACOES"
+                                }
+                            ]
+                        },
+                        {
+                            "identification": {
+                                "type": "CHAT",
+                                "additionalInfo": "NA",
+                                "urls": ""
+                            },
+                            "services": [
+                                {
+                                    "name": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_CONTAS_PAGAMENTOS",
+                                    "code": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_PAGTOS"
+                                },
+                                {
+                                    "name": "CANCELAMENTO",
+                                    "code": "CANCELAMENTO"
+                                },
+                                {
+                                    "name": "INFORMACOES",
+                                    "code": "INFORMACOES"
+                                },
+                                {
+                                    "name": "RECLAMACOES",
+                                    "code": "RECLAMACOES"
+                                }
+                            ]
+                        },
+                        {
+                            "identification": {
+                                "type": "OUTROS",
+                                "additionalInfo": "WhatsApp",
+                                "urls": "https://api.whatsapp.com/send?phone=551130049899%22"
+                            },
+                            "services": [
+                                {
+                                    "name": "OUTROS_PRODUTOS_SERVICOS",
+                                    "code": "OUTROS_PRODUTOS_SERVICOS",
+                                    "additionalInfo": "Digio Cobrança - Acordos de cartão e empréstimo"
+                                }
+                            ]
+                        }
+                    ],
                     "phoneChannels": [
                         {
                             "identification": {
@@ -189,7 +278,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -197,7 +286,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -205,7 +294,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -213,7 +302,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -236,7 +325,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -244,7 +333,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -252,7 +341,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -260,7 +349,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -283,7 +372,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -291,7 +380,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -299,7 +388,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -307,7 +396,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -330,7 +419,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "2.950000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -338,7 +427,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -346,7 +435,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -354,7 +443,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -377,7 +466,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -385,7 +474,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -393,7 +482,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -401,7 +490,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -424,7 +513,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -432,7 +521,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -440,7 +529,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -448,7 +537,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -471,7 +560,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -479,7 +568,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -487,7 +576,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -495,7 +584,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -520,7 +609,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -528,7 +617,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -536,7 +625,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -544,7 +633,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -567,7 +656,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -575,7 +664,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -583,7 +672,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -591,7 +680,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -614,7 +703,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -622,7 +711,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -630,7 +719,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -638,7 +727,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -661,7 +750,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -669,7 +758,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -677,7 +766,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -685,7 +774,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -708,7 +797,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -716,7 +805,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -724,7 +813,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -732,7 +821,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -755,7 +844,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -763,7 +852,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -771,7 +860,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -779,7 +868,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -802,7 +891,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -810,7 +899,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -818,7 +907,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -826,7 +915,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -871,10 +960,10 @@
                     ],
                     "personalCreditCards": [
                         {
-                            "name": "VISA INTERNACIONAL",
+                            "name": "CARTÃO DIGIO",
                             "identification": {
                                 "product": {
-                                    "type": "OUTROS",
+                                    "type": "CLASSIC_INTERNACIONAL",
                                     "additionalInfo": "NA"
                                 },
                                 "creditCard": {
@@ -887,77 +976,361 @@
                                 "rewardProgramInfo": "NA"
                             },
                             "fees": {
-                                "services": []
+                                "services": [
+                                    {
+                                        "name": "ANUIDADE_DIFERENCIADA",
+                                        "code": "ANUIDADE_DIFERENCIADA",
+                                        "chargingTriggerInfo": "NA",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "1.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimumRate": "0.00",
+                                        "maximumRate": "0.00"
+                                    },
+                                    {
+                                        "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_EXTERIOR",
+                                        "code": "SAQUE_CARTAO_EXTERIOR",
+                                        "chargingTriggerInfo": "NA",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "1.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimumRate": "0.00",
+                                        "maximumRate": "0.00"
+                                    },
+                                    {
+                                        "name": "AVALIACAO_EMERGENCIAL_CREDITO",
+                                        "code": "AVALIACAO_EMERGENCIAL_CREDITO",
+                                        "chargingTriggerInfo": "NA",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "8.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "1.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimumRate": "8.00",
+                                        "maximumRate": "8.00"
+                                    },
+                                    {
+                                        "name": "FORNECIMENTO_SEGUNDA_VIA_FUNCAO_CREDITO",
+                                        "code": "EMISSAO_SEGUNDA_VIA",
+                                        "chargingTriggerInfo": "NA",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "9.90",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "1.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimumRate": "9.90",
+                                        "maximumRate": "9.90"
+                                    },
+                                    {
+                                        "name": "PAGAMENTO_CONTAS_UTILIZANDO_FUNCAO_CREDITO",
+                                        "code": "TARIFA_PAGAMENTO_CONTAS",
+                                        "chargingTriggerInfo": "NA",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "1.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimumRate": "0.00",
+                                        "maximumRate": "0.00"
+                                    },
+                                    {
+                                        "name": "SMS",
+                                        "code": "SMS",
+                                        "chargingTriggerInfo": "NA",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "1.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimumRate": "0.00",
+                                        "maximumRate": "0.00"
+                                    }
+                                ]
                             },
                             "interest": {
-                                "rates": [],
-                                "instalmentRates": [],
-                                "otherCredits": []
+                                "rates": [
+                                    {
+                                        "referentialRateIndexer": "SEM_INDEXADOR_TAXA",
+                                        "rate": "0.00",
+                                        "applications": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "indexer": {
+                                                    "rate": "0.0000"
+                                                },
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "indexer": {
+                                                    "rate": "0.0000"
+                                                },
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "indexer": {
+                                                    "rate": "0.0000"
+                                                },
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "indexer": {
+                                                    "rate": "0.0000"
+                                                },
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimumRate": "0.0000",
+                                        "maximumRate": "0.0000"
+                                    }
+                                ],
+                                "instalmentRates": [
+                                    {
+                                        "referentialRateIndexer": "PRE_FIXADO",
+                                        "rate": "0.1340",
+                                        "applications": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "indexer": {
+                                                    "rate": "0.0000"
+                                                },
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "indexer": {
+                                                    "rate": "0.0000"
+                                                },
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "indexer": {
+                                                    "rate": "0.0000"
+                                                },
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "indexer": {
+                                                    "rate": "0.1340"
+                                                },
+                                                "customers": {
+                                                    "rate": "1.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimumRate": "0.1340",
+                                        "maximumRate": "0.1340"
+                                    }
+                                ],
+                                "otherCredits": [
+                                    {
+                                        "code": "SAQUE_A_CREDITO",
+                                        "additionalInfo": "NA"
+                                    },
+                                    {
+                                        "code": "TARIFA_PAGAMENTO_CONTAS",
+                                        "additionalInfo": "NA"
+                                    }
+                                ]
                             },
                             "termsConditions": {
-                                "minimumFeeRate": "0.000000",
-                                "additionalInfo": "NA",
-                                "elegibilityCriteriaInfo": "",
-                                "closingProcessInfo": ""
-                            }
-                        },
-                        {
-                            "name": "VISA PLATINUM",
-                            "identification": {
-                                "product": {
-                                    "type": "PLATINUM",
-                                    "additionalInfo": "NA"
-                                },
-                                "creditCard": {
-                                    "network": "VISA",
-                                    "additionalInfo": "NA"
-                                }
-                            },
-                            "rewardsProgram": {
-                                "hasRewardProgram": true,
-                                "rewardProgramInfo": "NA"
-                            },
-                            "fees": {
-                                "services": []
-                            },
-                            "interest": {
-                                "rates": [],
-                                "instalmentRates": [],
-                                "otherCredits": []
-                            },
-                            "termsConditions": {
-                                "minimumFeeRate": "0.000000",
-                                "additionalInfo": "NA",
-                                "elegibilityCriteriaInfo": "",
-                                "closingProcessInfo": ""
-                            }
-                        },
-                        {
-                            "name": "VISA GOLD",
-                            "identification": {
-                                "product": {
-                                    "type": "GOLD",
-                                    "additionalInfo": "NA"
-                                },
-                                "creditCard": {
-                                    "network": "VISA",
-                                    "additionalInfo": "NA"
-                                }
-                            },
-                            "rewardsProgram": {
-                                "hasRewardProgram": true,
-                                "rewardProgramInfo": "NA"
-                            },
-                            "fees": {
-                                "services": []
-                            },
-                            "interest": {
-                                "rates": [],
-                                "instalmentRates": [],
-                                "otherCredits": []
-                            },
-                            "termsConditions": {
-                                "minimumFeeRate": "0.000000",
+                                "minimumFeeRate": "0.0000",
                                 "additionalInfo": "NA",
                                 "elegibilityCriteriaInfo": "",
                                 "closingProcessInfo": ""
@@ -976,7 +1349,7 @@
                                     "rate": "0.000000",
                                     "applications": [
                                         {
-                                            "interval": "1_FAIXA_VALOR",
+                                            "interval": "1_FAIXA",
                                             "indexer": {
                                                 "rate": "0.000000"
                                             },
@@ -985,7 +1358,7 @@
                                             }
                                         },
                                         {
-                                            "interval": "2_FAIXA_VALOR",
+                                            "interval": "2_FAIXA",
                                             "indexer": {
                                                 "rate": "0.000000"
                                             },
@@ -994,7 +1367,7 @@
                                             }
                                         },
                                         {
-                                            "interval": "3_FAIXA_VALOR",
+                                            "interval": "3_FAIXA",
                                             "indexer": {
                                                 "rate": "0.000000"
                                             },
@@ -1003,7 +1376,7 @@
                                             }
                                         },
                                         {
-                                            "interval": "4_FAIXA_VALOR",
+                                            "interval": "4_FAIXA",
                                             "indexer": {
                                                 "rate": "0.000000"
                                             },
@@ -1031,7 +1404,7 @@
                                         "chargingTriggerInfo": "CONTRATO",
                                         "prices": [
                                             {
-                                                "interval": "1_FAIXA_VALOR",
+                                                "interval": "1_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -1039,7 +1412,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "2_FAIXA_VALOR",
+                                                "interval": "2_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -1047,7 +1420,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "3_FAIXA_VALOR",
+                                                "interval": "3_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -1055,7 +1428,7 @@
                                                 }
                                             },
                                             {
-                                                "interval": "4_FAIXA_VALOR",
+                                                "interval": "4_FAIXA",
                                                 "value": "0.000000",
                                                 "currency": "BRL",
                                                 "customers": {
@@ -1064,11 +1437,11 @@
                                             }
                                         ],
                                         "minimum": {
-                                            "value": "0.000000",
+                                            "value": "0.0000",
                                             "currency": "BRL"
                                         },
                                         "maximum": {
-                                            "value": "0.000000",
+                                            "value": "0.0000",
                                             "currency": "BRL"
                                         }
                                     }
@@ -1077,10 +1450,10 @@
                             "interestRates": [
                                 {
                                     "referentialRateIndexer": "PRE_FIXADO",
-                                    "rate": "0.000000",
+                                    "rate": "0.0000",
                                     "applications": [
                                         {
-                                            "interval": "1_FAIXA_VALOR",
+                                            "interval": "1_FAIXA",
                                             "indexer": {
                                                 "rate": "0.000000"
                                             },
@@ -1089,7 +1462,7 @@
                                             }
                                         },
                                         {
-                                            "interval": "2_FAIXA_VALOR",
+                                            "interval": "2_FAIXA",
                                             "indexer": {
                                                 "rate": "0.000000"
                                             },
@@ -1098,7 +1471,7 @@
                                             }
                                         },
                                         {
-                                            "interval": "3_FAIXA_VALOR",
+                                            "interval": "3_FAIXA",
                                             "indexer": {
                                                 "rate": "0.000000"
                                             },
@@ -1107,7 +1480,7 @@
                                             }
                                         },
                                         {
-                                            "interval": "4_FAIXA_VALOR",
+                                            "interval": "4_FAIXA",
                                             "indexer": {
                                                 "rate": "0.000000"
                                             },
@@ -1116,8 +1489,8 @@
                                             }
                                         }
                                     ],
-                                    "minimumRate": "0.000000",
-                                    "maximumRate": "0.000000"
+                                    "minimumRate": "0.0000",
+                                    "maximumRate": "0.0000"
                                 }
                             ],
                             "requiredWarranties": [

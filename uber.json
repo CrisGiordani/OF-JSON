@@ -1,28 +1,87 @@
 {
     "data": {
         "brand": {
-            "name": "DIGIO",
+            "name": "Uber Conta by Digio",
             "companies": [
                 {
                     "name": "Banco Digio S.A.",
                     "cnpjNumber": "27098060000145",
                     "urlComplementaryList": "NA",
+                    "electronicChannels": [
+                        {
+                            "identification": {
+                                "type": "MOBILE_BANKING",
+                                "additionalInfo": "NA",
+                                "url": [
+                                    "https://apps.apple.com/us/app/uber-conta/id1550784531",
+                                    "https://play.google.com/store/apps/details?id=br.com.digio.uber"
+                                ]
+                            },
+                            "services": [
+                                {
+                                    "name": "RECEBIMENTOS_PAGAMENTOS_QUALQUER_NATUREZA",
+                                    "code": "RECEBE_PAGA_QUALQUER_NATUREZA"
+                                },
+                                {
+                                    "name": "TRANSFERENCIAS_ELETRONICAS_VISANDO_MOVIMENTACAO_CONTAS_DEPOSITOS_OU_PAGAMENTO_TITULARIDADE_CLIENTES",
+                                    "code": "TRANSFERENCIAS_ELETRONICAS_MOVIMENTA_CONTAS_DEPOSITOS_OU_PAGTO_TITULARES_CLIENTES"
+                                },
+                                {
+                                    "name": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_CONTAS_PAGAMENTOS",
+                                    "code": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_PAGTOS"
+                                },
+                                {
+                                    "name": "CANCELAMENTO",
+                                    "code": "CANCELAMENTO"
+                                },
+                                {
+                                    "name": "INFORMACOES",
+                                    "code": "INFORMACOES"
+                                }
+                            ]
+                        },
+                        {
+                            "identification": {
+                                "type": "CHAT",
+                                "additionalInfo": "NA",
+                                "urls": ""
+                            },
+                            "services": [
+                                {
+                                    "name": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_CONTAS_PAGAMENTOS",
+                                    "code": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_PAGTOS"
+                                },
+                                {
+                                    "name": "CANCELAMENTO",
+                                    "code": "CANCELAMENTO"
+                                },
+                                {
+                                    "name": "INFORMACOES",
+                                    "code": "INFORMACOES"
+                                },
+                                {
+                                    "name": "RECLAMACOES",
+                                    "code": "RECLAMACOES"
+                                }
+                            ]
+                        }
+                    ],
                     "phoneChannels": [
                         {
                             "identification": {
                                 "type": "CENTRAL_TELEFONICA",
-                                "additionalInfo": "Atendimento Digio",
+                                "additionalInfo": "Central Uber Conta",
                                 "phones": [
                                     {
                                         "countryCallingCode": "55",
                                         "areaCode": "NA",
-                                        "number": "3004-9920",
+                                        "number": "3004-9907",
                                         "additionalInfo": "Capitais e regiões metropolitanas. Todos os dias. 24H."
                                     },
                                     {
                                         "countryCallingCode": "55",
                                         "areaCode": "NA",
-                                        "number": "0800-721-9920",
+                                        "number": "0800-721-9907",
                                         "additionalInfo": "Demais regiões. Todos os dias 24H."
                                     }
                                 ]
@@ -31,10 +90,6 @@
                                 {
                                     "name": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_CONTAS_PAGAMENTOS",
                                     "code": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_PAGTOS"
-                                },
-                                {
-                                    "name": "CARTAO_CREDITO",
-                                    "code": "CARTAO_CREDITO"
                                 },
                                 {
                                     "name": "CANCELAMENTO",
@@ -115,52 +170,6 @@
                                 {
                                     "name": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_CONTAS_PAGAMENTOS",
                                     "code": "CONSULTA_SALDOS_EXTRATOS_CONTAS_DEPOSITOS_PAGTOS"
-                                },
-                                {
-                                    "name": "OPERACOES_CREDITO_BEM_COMO_OUTROS_SERVICOS_PRESTADOS_ACOMPANHAMENTO_OPERACAO",
-                                    "code": "OPERA_CREDITO_OUTROS_SERVICOS_ACOMPANHA_OPERACAO"
-                                },
-                                {
-                                    "name": "CARTAO_CREDITO",
-                                    "code": "CARTAO_CREDITO"
-                                },
-                                {
-                                    "name": "CANCELAMENTO",
-                                    "code": "CANCELAMENTO"
-                                },
-                                {
-                                    "name": "INFORMACOES",
-                                    "code": "INFORMACOES"
-                                },
-                                {
-                                    "name": "RECLAMACOES",
-                                    "code": "RECLAMACOES"
-                                }
-                            ]
-                        },
-                        {
-                            "identification": {
-                                "type": "OUTROS",
-                                "additionalInfo": "Atendimento Empréstimos",
-                                "phones": [
-                                    {
-                                        "countryCallingCode": "55",
-                                        "areaCode": "NA",
-                                        "number": "3003-8734",
-                                        "additionalInfo": "Capitais e regiões metropolitanas. Segunda a Sexta das 8H às 22H. Exceto Feriados."
-                                    },
-                                    {
-                                        "countryCallingCode": "55",
-                                        "areaCode": "NA",
-                                        "number": "0800-721-9920",
-                                        "additionalInfo": "Demais regiões. Segunda a Sexta das 8H às 22H. Exceto Feriados."
-                                    }
-                                ]
-                            },
-                            "services": [
-                                {
-                                    "name": "OPERACOES_CREDITO_BEM_COMO_OUTROS_SERVICOS_PRESTADOS_ACOMPANHAMENTO_OPERACAO",
-                                    "code": "OPERA_CREDITO_OUTROS_SERVICOS_ACOMPANHA_OPERACAO"
                                 },
                                 {
                                     "name": "CANCELAMENTO",
