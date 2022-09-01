@@ -185,6 +185,317 @@
                                 }
                             ]
                         }
+                    ],
+                    "personalAccounts": [
+                        {
+                            "type": "CONTA_PAGAMENTO_PRE_PAGA",
+                            "fees": {
+                                "priorityServices": [
+                                    {
+                                        "name": "CONFECCAO_CADASTRO_INICIO_RELACIONAMENTO",
+                                        "code": "CADASTRO",
+                                        "chargingTriggerInfo": "Confecção de cadastro do início do relacionamento",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "DEPOSITO_IDENTIFICADO",
+                                        "code": "DEPOSITO_IDENTIFICADO",
+                                        "chargingTriggerInfo": "Depósito identificado",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "TRANSFERENCIA_TED_INTERNET",
+                                        "code": "TED_INTERNET",
+                                        "chargingTriggerInfo": "Transferência TED via internet",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "TRANSFERENCIA_ENTRE_CONTAS_PROPRIA_INSTITUICAO_TERMINAL_AUTOATENDIMENTO_OUTROS_MEIOS_ELETRONICOS_INCLUSIVE_INTERNET",
+                                        "code": "TRANSF_RECURSO_P",
+                                        "chargingTriggerInfo": "Transferência entre contas da mesma instituição",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "UTILIZACAO_CANAIS_ATENDIMENTO_RETIRADA_ESPECIE_BRASIL",
+                                        "code": "SAQUE_CARTAO_BRASIL",
+                                        "chargingTriggerInfo": "Saque retirada em espécie",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "0.00",
+                                            "currency": "BRL"
+                                        }
+                                    },
+                                    {
+                                        "name": "FORNECIMENTO_2_VIA_CARTAO_FUNCAO_DEBITO",
+                                        "code": "2_VIA_CARTAO_DEBITO",
+                                        "chargingTriggerInfo": "Emissão de segunda via do cartão de débito",
+                                        "prices": [
+                                            {
+                                                "interval": "1_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "2_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "3_FAIXA",
+                                                "value": "0.00",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "0.0000"
+                                                }
+                                            },
+                                            {
+                                                "interval": "4_FAIXA",
+                                                "value": "12.50",
+                                                "currency": "BRL",
+                                                "customers": {
+                                                    "rate": "1.0000"
+                                                }
+                                            }
+                                        ],
+                                        "minimum": {
+                                            "value": "12.50",
+                                            "currency": "BRL"
+                                        },
+                                        "maximum": {
+                                            "value": "12.50",
+                                            "currency": "BRL"
+                                        }
+                                    }
+                                ]
+                            },
+                            "openingClosingChannels": [
+                                "MOBILE_BANKING",
+                                "OUTROS"
+                            ],
+                            "additionalInfo": "Pré cadastro no site - Motorista deve ser convidado",
+                            "transactionMethods": [
+                                "MOVIMENTACAO_ELETRONICA",
+                                "MOVIMENTACAO_CARTAO"
+                            ],
+                            "termsConditions": {
+                                "minimumBalance": {
+                                    "value": "0.00",
+                                    "currency": "BRL"
+                                },
+                                "elegibilityCriteriaInfo": "https://www.ubercontabrasil.com.br/termos-e-condicoes.pdf",
+                                "closingProcessInfo": "https://www.ubercontabrasil.com.br/termos-e-condicoes.pdf"
+                            },
+                            "incomeRate": {
+                                "prepaidPaymentAccount": "Rende 100% do CDI"
+                            }
+                        }
                     ]
                 }
             ]
