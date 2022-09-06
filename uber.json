@@ -12,7 +12,7 @@
                             "identification": {
                                 "type": "MOBILE_BANKING",
                                 "additionalInfo": "NA",
-                                "url": [
+                                "urls": [
                                     "https://apps.apple.com/us/app/uber-conta/id1550784531",
                                     "https://play.google.com/store/apps/details?id=br.com.digio.uber"
                                 ]
@@ -43,8 +43,7 @@
                         {
                             "identification": {
                                 "type": "CHAT",
-                                "additionalInfo": "NA",
-                                "urls": ""
+                                "additionalInfo": "NA"
                             },
                             "services": [
                                 {

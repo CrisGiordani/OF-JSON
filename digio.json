@@ -12,7 +12,7 @@
                             "identification": {
                                 "type": "MOBILE_BANKING",
                                 "additionalInfo": "NA",
-                                "url": [
+                                "urls": [
                                     "https://apps.apple.com/br/app/digio/id1128793569",
                                     "https://play.google.com/store/apps/details?id=br.com.digio"
                                 ]
@@ -60,8 +60,7 @@
                         {
                             "identification": {
                                 "type": "CHAT",
-                                "additionalInfo": "NA",
-                                "urls": ""
+                                "additionalInfo": "NA"
                             },
                             "services": [
                                 {
@@ -86,7 +85,9 @@
                             "identification": {
                                 "type": "OUTROS",
                                 "additionalInfo": "WhatsApp",
-                                "urls": "https://api.whatsapp.com/send?phone=551130049899%22"
+                                "urls": [
+                                    "https://api.whatsapp.com/send?phone=551130049899%22"
+                                ]
                             },
                             "services": [
                                 {
